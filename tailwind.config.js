@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        flip:'flip 1s cubid-bezier(0, 0, 0.2, 1) infinate'
+      },
+      keyframes:{
+        flip: {
+          'from': { transform:'rotateX(0deg)', transformOrigin: '50% bottom ',},
+          'to':{transform: 'rotateX(180deg)', transformOrigin: '50% bottom ',}
+        }
+      },
     },
   },
   plugins: [],
