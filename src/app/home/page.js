@@ -31,7 +31,7 @@ export default function Home() {
                 <FaTwitter size={28} />
             </Link>
            </div>
-           <iframe className="rounded-sm mt-4 mb-7 w-2/4 hidden lg:block" src="https://open.spotify.com/embed/artist/7qJanCPQlXfO9DajSlDR2n?utm_source=generator" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           <iframe className="rounded-sm mt-4 mb-7 sm:w-3/4" src="https://open.spotify.com/embed/artist/7qJanCPQlXfO9DajSlDR2n?utm_source=generator" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
     )
 }
