@@ -10,7 +10,7 @@ export default function Home() {
             height={500}
             width={1000}
             alt="Shallow Life Banner"
-            className="rounded-sm"
+            className="rounded-sm w-4/5"
            />
            <p className="mt-5">The New Single</p>
            <h1 className="text-4xl uppercase">Shallow Life</h1>
