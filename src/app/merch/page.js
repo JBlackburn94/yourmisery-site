@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Merch() {
     return (
-        <div className="flex flex-wrap justify-center items-center">
+        <div className="flex flex-wrap justify-center items-center mt-10">
             <Image
                 src='/tee-1.webp'
                 height={100}
