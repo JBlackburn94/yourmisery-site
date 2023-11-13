@@ -31,7 +31,7 @@ export default function Music() {
                 </div>
                 <div className="bg-slate-700 sm:w-2/6 rounded bg-opacity-75 flex justify-center items-center flex-col mt-2 mb-4">
                     <h2 className="text-2xl mt-4 uppercase">Still Existence</h2>
-                    <p className="w-3/6 text-center">It’s beautifully constructed and spine-tinglingly rousing and bound to be stuck in your head for the next few weeks. - Rocksound</p>
+                    {/* <p className="w-3/6 text-center">It’s beautifully constructed and spine-tinglingly rousing and bound to be stuck in your head for the next few weeks. - Rocksound</p> */}
                     <div className="flex flex-row items-center mb-11">
                         <FaSpotify size={28} className="hover:scale-110 mx-2 duration-200" />
                         <FaApple size={28} className="hover:scale-110 mx-2 duration-200" />
