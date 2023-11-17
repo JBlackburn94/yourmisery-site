@@ -33,8 +33,7 @@ export default function Navbar() {
             {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
             <h1 className="ml-2">
               <a
-                href=""
-                target="_blank"
+                href="/home"
                 rel="noreferrer"
               >
                 <Image src="/logo.png" width={100} height={100} alt="Your Misery logo" />
